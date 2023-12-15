@@ -3,45 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Turismo no Brasil</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <img src="imgs/mala.jpeg" alt="logo de uma mala" width="50">
+            <img id="logo_mala" src="imgs/mala.jpeg" alt="logo de uma mala">
+        </div>
+        <div>
             <h1>Brasiltur</h1>
         </div>        
         <nav>
-            <ul>
-                <li>Passagens</li>
-                <li>Hospedagem</li>
-                <li>Pontos Turísticos</li>                
+            <ul class="nav_link">
+                <li><a href="#">Passagens</a></li>
+                <li> <a href="">Hospedagem</a></li>
+                <li><a href="">Pontos Turísticos</a></li>                
             </ul>
         </nav>
     </header>
     <main>        
         <section>
-            <div><h3>Outros Pontos Turísticos do Recife Antigo</h3>
-                <ul>
-                    <il><a href="index_recife.html"></a></il>
-                </ul>            
+            <div class="ponto_turistico"><h3>Outros Pontos Turísticos do Recife Antigo</h3>
+                           
             </div>
         </section>       
         <section>
-            <div>
+            <div class="pto_antigo">
                 <h4>Praça do Arsenal</h4>
                 <p>A Praça do Arsenal da Marinha, a segunda mais importante da região do Recife Antigo, abriga diversos casarios antigos e coloridos.</p>
-                <img src="https://viajeleve.net/v23/wp-content/uploads/2016/03/Centro-Historico-de-Recife.jpg alt="imagem praça" width="400">                                               
+                <img src="imgs/praça_arsenal.jpeg"imagem praça" >                                             
             </div>
         </section>
         <section>
-            <div>
+            <div class="pto_antigo">
                 <h4>Rua do Bom Jesus</h4>
                 <p>Um dos principais símbolos da cidade do Recife, a rua do Bom Jesus, localizada no centro histórico da capital e eleita uma das vias mais bonitas do mundo, já é exclusiva para pedestres. </p>
-                <img src="imgs/Bom_Jesus_street,_Old_Recife_-_Recife,_Pernambuco,_Brazil(2).jpg" alt="imagem rua do Bom Jesus" width="400">                                               
+                <img src="imgs/Bom_Jesus_street,_Old_Recife_-_Recife,_Pernambuco,_Brazil(2).jpg" alt="imagem rua do Bom Jesus" >                                               
             </div>
         </section>
-        <h3><a href="index_recife.html">Voltar</a></il></h3>          
+        <div class="voltar_pagina">
+            <h3><a href="index_recife.html">Voltar</a></il></h3> 
+        </div>
+                 
     </main>
     <hr>
     <footer>
