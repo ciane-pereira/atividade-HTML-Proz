@@ -4,49 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo no Brasil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <img src="imgs/mala.jpeg" alt="logo de uma mala" width="50">
+            <img id="logo_mala" src="imgs/mala.jpeg" alt="logo de uma mala">
+        </div>
+        <div>
             <h1>Brasiltur</h1>
         </div>        
         <nav>
-            <ul>
-                <li>Passagens</li>
-                <li>Hospedagem</li>
-                <li>Pontos Turísticos</li>
+            <ul class="nav_link">
+                <li><a href="#">Passagens</a></li>
+                <li> <a href="#">Hospedagem</a></li>
+                <li><a href="#">Pontos Turísticos</a></li>                
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="container_principal">
+            <div class="empresa">
                 <h2>Bem-vindo a Brasiltur</h2>
                 <h3>Quem Somos</h3>
-                <p>Somos uma empresa de turismo com foco em levar você, <br>sua fámília  e seus amigos para conhecer o Brasil e suas cidades maravilhosas cheias de história, encanto e beleza.</p>
+                <p>Somos uma empresa de turismo com foco em levar você, <br>sua fámília  e seus amigos para conhecer o Brasil e suas cidades maravilhosas cheias de história, encanto e beleza.</p>                
+            </div>
+        <section>
+            <div class="conhecer_nordeste">                
+                <h3>Venha conhecer o Nordeste</h3>
                 <img src="imgs/ground-zero-2014135_1280.jpg" alt="imagem praça Marco Zero" width="500">
-            </div>            
-            <h3>Venha conhecer o Nordeste</h3>
             <h4>Recife</h4>
-            <p>Recife é uma cidade linda com diversos pontos turísticos em destaque o <strong>Marco Zero</strong> na Praça Rio Branco, que é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco.
+            <p class="descricao_marco">Recife é uma cidade linda com diversos pontos turísticos em destaque o <strong>Marco Zero</strong> na Praça Rio Branco, que é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco.
             Ele fica próximo ao Porto do Recife e foi instalado em 31 de janeiro de 1938, pelo Automóvel Clube de Pernambuco.</p>
-            <img src="imgs/desenho_marco.jpg" alt="imagem desenho do Marco Zero" width="250"> 
-            <p>É deste marco que são feitas todas as medidas oficiais de distâncias rodoviárias locais. Oficialmente denominada de Praça Barão do Rio Branco, fica localizada na Av. Alfredo Lisboa conectada às ruas Marquês de Olinda, Rio Branco e Barbosa Lima.               
-            Além do <strong>Marco Zero</strong>, existe na praça um busto do Barão do Rio Branco, escultura do francês Félix Charpeutier, colocada ali em 1917, em bronze com uma altura de 2,5m e foi inaugurada, sob um pedestal em pedra de 4,20m, esculpido por Corbiniano Vilaça, em 19 de agosto do mesmo ano. Dando a obra uma altura de 7m.                
-            O norte da praça é banhado pelo estuário do porto do Recife, formado pelo Rio Capibaribe. O estuário é protegido por um dique natural, local em que se encontra o Parque das Esculturas com a famosa obra Coluna de Cristal de 32 metros de altura e inspirada em uma flor descoberta por Burle Marx e varias outras obras em cerâmica do artista Francisco Brennand. No dique encontra-se também a Casa de Banhos, que não existe mais, e o Farol do Recife. O dique tem uma extensão 4km de comprimento e começa no bairro de Brasília Teimosa. 
-            <div><cite>Fonte: Wikipédia</cite>
+            <div class="marco_zero">
+                <img src="imgs/desenho_marco.jpg" alt="imagem desenho do Marco Zero" width="200" id="img_marco"> 
+                <p class="descricao_marco">Deste marco são feitas todas as medidas oficiais de distâncias rodoviárias locais. Oficialmente denominada de Praça Barão do Rio Branco.               
+                Além do <strong>Marco Zero</strong>, existe na praça um busto do Barão do Rio Branco, escultura do francês Félix Charpeutier, colocada ali em 1917, em bronze com uma altura de 2,5m e foi inaugurada, sob um pedestal em pedra de 4,20m, esculpido por Corbiniano Vilaça, em 19 de agosto do mesmo ano. Dando a obra uma altura de 7m.                
+                O norte da praça é banhado pelo estuário do porto do Recife, formado pelo Rio Capibaribe. O estuário é protegido por um dique natural, local em que se encontra o Parque das Esculturas com a famosa obra Coluna de Cristal de 32 metros de altura e inspirada em uma flor descoberta por Burle Marx e varias outras obras em cerâmica do artista Francisco Brennand.<br>
+                <cite>Fonte: Wikipédia</cite></p>
+           
             </div></p>            
-            <img src="imgs/praça_maro1.png" alt="imagem da praça Marco Zero">            
-        </div>
-        </section>
+            <img src="imgs/praça_maro1.png" alt="imagem da praça Marco Zero">   
+                </div>
+        </section>        
         <section>
             <div><h3>Venha conhecer essa cidade maravilhosa!</h3>
-                <h4><a href="ptos_turistico_recife.html">Veja os outros pontos turísticos</a> </h4>           
+                <h4 class="outros_pontos"><a href="ptos_turistico_recife.html">Clique para Conhecer!</a>
+             </h4>           
             </div>
         </section>        
     </main>
-    <hr>
+
     <footer>
         <p>Brasiltur Contatos</p>
         <ul>
